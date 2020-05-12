@@ -21,7 +21,7 @@ public class BaseClass {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			if (Constants.osName.contains("Mac")) {
-				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver");
 			} else if (Constants.osName.contains("Windows")) {
 				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
 			}
